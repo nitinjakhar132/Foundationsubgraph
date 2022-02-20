@@ -1,0 +1,16 @@
+{
+  "name": "Foundationsungraph",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ nitinjakhar132/Foundationsungraph",
+    "create-local": "graph create --node http://localhost:8020/ nitinjakhar132/Foundationsungraph",
+    "remove-local": "graph remove --node http://localhost:8020/ nitinjakhar132/Foundationsungraph",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 nitinjakhar132/Foundationsungraph"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.26.0",
+    "@graphprotocol/graph-ts": "0.24.1"
+  }
+}
